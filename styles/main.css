@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "TT Hoves";
+  src: url(./TT\ Hoves\ Regular.otf);
+}
+body {
+  font-family: "TT Hoves";
+  background-color: #d9d9d9;
+  height: 100vh;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 0;
+}
+header div:nth-child(1) {
+  display: flex;
+  align-items: center;
+}
+header div:nth-child(1) b:nth-shild(1) {
+  font-family: var(--font-family);
+  font-weight: 900;
+  font-size: 25px;
+  text-align: center;
+  color: #323232;
+}
+header div:nth-child(1) b:nth-child(2) {
+  font-family: var(--font-family);
+  font-weight: 900;
+  font-size: 25px;
+  text-align: center;
+}
+header div:nth-child(2) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+header div:nth-child(2) div:nth-child(1) {
+  width: 40px;
+  height: 2px;
+  background: #323232;
+  margin-bottom: 5px;
+}
+header div:nth-child(2) div:nth-child(2) {
+  width: 30px;
+  height: 2px;
+  background: #323232;
+}
+header div:nth-child(3) {
+  display: flex;
+  align-items: center;
+}
+header div:nth-child(3) b:nth-child(1) {
+  font-family: var(--font-family);
+  font-weight: 900;
+  font-size: 25px;
+  text-align: center;
+  color: #323232;
+}
+header div:nth-child(3) b:nth-child(2) {
+  font-family: var(--font-family);
+  font-weight: 900;
+  font-size: 25px;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  position: relative;
+}
+main h1 {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 220px;
+  letter-spacing: -0.04em;
+  text-align: center;
+  color: #fff;
+  width: 100%;
+  z-index: -10;
+  position: absolute;
+  top: 306px;
+}
+main b {
+  position: absolute;
+  top: 436px;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 24px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #323232;
+  left: -66px;
+  bottom: 236px;
+}
+main div {
+  border-radius: 100%;
+  fill: rgba(255, 255, 255, 0.2);
+  stroke-width: 2.95px;
+  stroke: rgba(255, 255, 255, 0.7);
+  -webkit-backdrop-filter: blur(7.8628573418px);
+          backdrop-filter: blur(7.8628573418px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  width: 172px;
+  height: 172px;
+  position: absolute;
+  right: 364px;
+  top: 469px;
+}
+main .pagination {
+  position: absolute;
+  right: 60px;
+  top: 356px;
+}
+main .bubbles {
+  position: absolute;
+  left: 60px;
+  bottom: 126px;
+}
+main .icon {
+  position: absolute;
+  top: 300px;
+  right: 132px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer div:nth-child(1) {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.footer p {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #323232;
+}
+.footer .progress-container {
+  width: 300px;
+  height: 10px;
+  background-color: #ff0000;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  width: 299px;
+  height: 5px;
+  background: #dadae2;
+}
+.footer .progress-bar {
+  height: 100%;
+  background-color: #9b79f2;
+  transition: width 0.3s ease;
+  border-radius: 5px;
+  width: 81px;
+  height: 5px;
+}/*# sourceMappingURL=main.css.map */
